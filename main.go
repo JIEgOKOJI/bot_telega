@@ -24,7 +24,7 @@ func main() {
 	var GlobalUpdate = 0
 	os.Setenv("HTTP_PROXY", "socks5://streamfest:Stream.Fest1@vpnwork.space:10800")
 	var err error
-	db, err = sql.Open("mysql", "root:ilovegg@/psn")
+	db, err = sql.Open("mysql", "root:_pass_@/psn")
 
 	if err != nil {
 		log.Println(err.Error())
